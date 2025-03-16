@@ -1,0 +1,17 @@
+package com.productservice.products.dtos;
+
+
+import lombok.Getter;
+import lombok.Setter;
+
+@Getter
+@Setter
+public class ProductResponseDtoFS {
+
+    private long id;
+    private String title;
+    private float price;
+    private String description;
+    private String Category;
+    private String image;
+}
